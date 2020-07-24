@@ -26,9 +26,7 @@
 // 2nd: wire up click event on 'Enter New Budget Item' button to toggle display of form
 
 
-// 3rd: wire up click event on 'Add Budget Item' button, gather user input and add item to budgetItems array
-// (each item's object should include: id / date / name / category / amount / notes)... then clear the form
-// fields and trigger localStorage update/budgetItems rerender functions, once created
+// 3rd: wire up click event on 'Add Budget Item' button, gather user input and add item to budgetItems array (each item's object should include: id / date / name / category / amount / notes)... then clear the form fields and trigger localStorage update/budgetItems rerender functions, once created
 
 
 // 6th: wire up change event on the category select menu, show filtered budgetItems based on selection
