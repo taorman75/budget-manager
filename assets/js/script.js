@@ -107,6 +107,7 @@ $("#budgetItems").on("click", ".delete", function() {
     budgetItems = remainingItems;
     updateStorage();
     renderItems();
+    $("#categoryFilter").val(""); // to show you're no longer filtering
 });
 
 renderItems();
